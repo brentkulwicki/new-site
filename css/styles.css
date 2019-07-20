@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  #p1-overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 0, 0, 0.6);
+  }
+  #page-one {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/main-bg-img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+  }
+  #p1-content {
+    color: white;
+    text-align: center;
+    width: 50%;
+    margin: auto auto;
+    padding-top: 30vh;
+  }
+  #p1-content > h1,
+  #p1-content > h2 {
+    font-family: 'Caudex', serif;
+  }
+  #p1-content > h1 {
+    font-size: 3.6em;
+  }
+  #p1-content > h2 {
+    font-size: 2.4em;
+  }
+  #p1-content > p {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 1.5em;
+  }
